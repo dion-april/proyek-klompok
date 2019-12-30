@@ -96,10 +96,10 @@ textarea {
   <div class="container copyright">
     <div class="row">
       <div class="sixcol">
-        <div id="FooterTree"> &copy; 2019 chef dika </div>
+        <div id="FooterTree"> &copy; 2019 Gregor</div>
       </div>
       <div class="sixcol last">
-        <div id="FooterTwo">contact person admin :</div>
+        <div id="FooterTwo">contact person admin : 08967315355</div>
       </div>
     </div>
   </div>

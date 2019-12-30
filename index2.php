@@ -19,7 +19,7 @@
             <li><a href="#">About us </a></li>
             <li><a href="#">Products</a></li>
             <li><a href="index.html">Gallery</a></li>
-            <li><a href="loginn.php"> LogIn</a></li>
+            <li><a href="logout.php"> LogOut</a></li>
           </ul>
         </nav>
       </div>
@@ -36,6 +36,7 @@
         yang ingin anda coba dan bagikan resep yang anda 
       miliki.</h2>
       </hgroup>
+       <a href="artikel.php" class="button1">Tambahkan resepmu disini</a> </section>
   </div>
 </div>
 <div class="container">

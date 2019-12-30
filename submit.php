@@ -22,19 +22,11 @@ $query = mysqli_query($koneksi, "INSERT INTO tabelartikel VALUES ('','$judul','$
 //cek apakah querynya berhasil atau tidak
 
 if ($query) {
-
-
-//jika berhasil maka tampilkan pesan
-
-echo 'Artikel Sudah dibuat dengan judul '.$judul ;
+	echo "<script>alert('Resep Telah Dibuat');window.location='index2.php'</script>";
 }
 else
 {
-
-//tampilkan pesan error jika query tidak berhasil
-
-echo 'gagal membuat artikel dengan judul '.$judul ;
-
+echo "<script>alert('Resep Gagal Dibuat');window.location='index2.php'</script>";
 
 //tutup koneksi ke database
 
@@ -42,4 +34,4 @@ mysqli_close();
 }
 ?>
 
-<a href="index.php">Lihat Hasil Posting </a>
+<a href="index2.php">Lihat Hasil Posting </a>
